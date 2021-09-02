@@ -28,6 +28,12 @@ libudev-dev \
 libboost-all-dev \
 libwebsockets-dev \
 
+echo "######################" 
+echo "# add user to dailout #"
+echo "######################" 
+
+sudo adduser ${USER} dialout
+
 
 echo "######################" 
 echo "# Setting Temp Swap #"
